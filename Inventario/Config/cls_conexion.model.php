@@ -6,7 +6,7 @@ class Clase_Conectar_Base_Datos
     private $host = "localhost";  //192.168.100.103
     private $user = "root";
     private $pass = "";
-    private $dbname = "Inventario_Sexto";
+    private $dbname = "inventario_angular";
 
     public function ProcedimientoConectar()
     {
@@ -16,7 +16,7 @@ class Clase_Conectar_Base_Datos
         if (!$this->conexion) {
             die("Error en la conexion con el servidor" . mysqli_error($this->conexion));
         }
-        //if(!$this->conexion) die("Error en la conexion con el servidor" . mysqli_error($this->conexion));
+        
 
         $this->db = mysqli_select_db($this->conexion, $this->dbname);
 
