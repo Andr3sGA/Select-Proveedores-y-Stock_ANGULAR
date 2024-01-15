@@ -12,7 +12,7 @@ START TRANSACTION;
 SET time_zone = "+00:00";
 
 --
--- Base de datos: `Inventario_Sexto`
+-- Base de datos: `inventario_angular`
 --
 
 -- --------------------------------------------------------
